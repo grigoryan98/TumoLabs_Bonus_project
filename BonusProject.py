@@ -18,7 +18,7 @@ def countdown(inp):
 			if ls[i] // 10 == 0:
 				ls[i] = "0" + str(ls[i])
 			else:
-				ls[i] = str(ls[i])
+				ls[i] = str(ls[i]) 
 
 		st = ':'.join(i for i in ls)
 		print(st)
