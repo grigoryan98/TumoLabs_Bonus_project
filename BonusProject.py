@@ -11,7 +11,7 @@ def countdown(inp):
 			inp[1] -= 1
 			inp[2] = 59
 		else:
-			inp[2] = inp[2] - 1
+			inp[2] = inp[2] - 1 
 
 		ls = inp.copy()
 		for i in range(len(ls)):
